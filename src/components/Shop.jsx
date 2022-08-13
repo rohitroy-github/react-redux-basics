@@ -26,12 +26,12 @@ const Shop = () => {
   return (
     <div className='main-container container'> 
       <div className='heading'> 
-        <h3>React-Redux Basic Application</h3>
-        <h4 className='small-heading'>Bank Account Balance Updation Application Using State Updation</h4>
+        <h3>React-Redux Application</h3>
+        <h4 className='small-heading'>Basic Bank Account Balance Updation Application Using Redux Store</h4>
       </div>
       <div className='update-container'> 
       {/* <h3>Calculation Checks</h3> */}
-        <button type="button" className="button-update btn btn-primary" onClick={() => { 
+        <button type="button" className="button-inc btn btn-primary" onClick={() => { 
           depositMoney(100)
         }}><h4>Deposit Money</h4></button>
         
@@ -39,9 +39,9 @@ const Shop = () => {
           withdrawMoney(100)
         }}><h4>Withdraw Money</h4></button>
       </div>
-      <div className='balance'> 
+      <div className='balance-container'> 
         <h4>Updated Account Balance</h4>
-        <button type="button" className="button-updt btn btn-primary"><h4>{balance}</h4></button>
+        <button type="button" className="button-updt btn btn-dark active"><h4>{balance}</h4></button>
       </div>
     </div>
   )
