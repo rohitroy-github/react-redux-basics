@@ -25,10 +25,6 @@ const Shop = () => {
   // Displaying the uodated balance
   const balance = useSelector((state) => state.amount);
 
-  if(balance < 0){ 
-    alert('Your account balance is 0 | Please deposit more money !');
-  }
-
   return (
     <div className="main-container container">
       <div className="heading">
@@ -55,6 +51,8 @@ const Shop = () => {
           className="button-dec btn btn-primary"
 
           onClick={() => {
+
+            //Check for 0 account balance !
             if(balance <= 0){ 
               alert('No more withdrawing possible, account balance is 0 !');
             }
