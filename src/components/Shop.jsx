@@ -26,7 +26,7 @@ const Shop = () => {
   return (
     <div className='main-container container'> 
       <div className='heading'> 
-        <h3>React-Redux Basics</h3>
+        <h3>React-Redux Basic Application</h3>
         <h4 className='small-heading'>Bank Account Balance Updation Application Using State Updation</h4>
       </div>
       <div className='update-container'> 
