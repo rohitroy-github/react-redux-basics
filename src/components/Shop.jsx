@@ -55,7 +55,7 @@ const Shop = () => {
           className="button-dec btn btn-primary"
 
           onClick={() => {
-            if(balance < 0){ 
+            if(balance <= 0){ 
               alert('No more withdrawing possible, account balance is 0 !');
             }
             else{ 
