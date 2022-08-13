@@ -6,6 +6,12 @@
     padding-top: 15px;
     text-align: center;
 }
+
+.amount-field{ 
+    padding-top: 30px;
+    margin: auto;
+    font-weight: bold;
+}
  
 .small-heading{ 
     padding-top: 50px;
