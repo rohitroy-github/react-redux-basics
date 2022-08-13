@@ -1,0 +1,1 @@
+This is a <b>React - Redux Basic</b> Application which I made to learn my Redux and <b>State</b> management skills. 

@@ -1,0 +1,35 @@
+.container{ 
+    text-align: center;
+}
+
+.update-container{
+    padding-top: 10px;
+    text-align: center;
+}
+ 
+.small-heading{ 
+    padding-top: 50px;
+}
+
+.button-inc{ 
+    margin: 15px;
+}
+
+.button-dec{ 
+    margin: 15px;
+}
+
+.main-container{     
+    margin: auto;
+    height: 50%;
+    width: 50%;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.button-updt{ 
+    margin: 5px;
+}
