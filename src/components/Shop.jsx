@@ -28,7 +28,7 @@ const Shop = () => {
   return (
     <div className="main-container container">
       <div className="heading">
-        <h3>React-Redux Application</h3>
+        <h3 className="big-heading">React-Redux Application</h3>
         <h4 className="small-heading">
           Basic Bank Account Balance Updation Application Using Redux Store
         </h4>
@@ -77,7 +77,7 @@ const Shop = () => {
       </div>
 
       <div className="balance-container">
-        <h4>Updated Account Balance</h4>
+        <h4 className="balance-text">Updated Account Balance</h4>
         <button type="button" className="button-updt btn btn-dark active">
           <h4>{balance}</h4>
         </button>
